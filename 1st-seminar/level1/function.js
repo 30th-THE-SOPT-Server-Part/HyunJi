@@ -1,6 +1,6 @@
-// function menu(dinner) {
-//   return `오늘 메뉴는 ${dinner}입니다~`;
-// }
+function menu(dinner) {
+  return `오늘 메뉴는 ${dinner}입니다~`;
+}
 
 const menu = (dinner) => {
   return `오늘 메뉴는 ${dinner}입니다~`;

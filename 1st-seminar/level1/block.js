@@ -1,14 +1,14 @@
 // var: Function Scope
-// if (true) {
-//   var x = 'var';
-// }
-// console.log(`var: ${x}`);
+if (true) {
+  var x = 'var';
+}
+console.log(`var: ${x}`);
 
 // let, const: Block Scope
-// if (true) {
-//   let y = 'let';
-// }
-// console.log(`let: ${y}`);
+if (true) {
+  let y = 'let';
+}
+console.log(`let: ${y}`);
 
 function foo() {
   if (true) {
